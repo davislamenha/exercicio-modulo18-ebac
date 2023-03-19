@@ -1,0 +1,41 @@
+@corDeFundo: #130f40;
+@corDeTexto: #dff9fb;
+
+body {
+  background-color: @corDeFundo;
+  color: @corDeTexto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+main {
+  width: min(100% - 30px, 1280px);
+
+  form {
+    width: min(350px, 100% - 30px);
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: 2rem;
+    }
+
+    input {
+      padding: 5px 10px;
+      border: none;
+      background-color: transparent;
+      border-bottom: 4px solid @corDeTexto;
+      font-size: 2rem;
+    }
+
+    button {
+      cursor: pointer;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-size: 2rem;
+      text-transform: uppercase;
+      background-color: @corDeTexto;
+      color: @corDeFundo;
+    }
+  }
+}
