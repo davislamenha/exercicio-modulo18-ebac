@@ -1,0 +1,22 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davislamenha/exercicio-modulo18-ebac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davislamenha/exercicio-modulo18-ebac/issues"
+  },
+  "homepage": "https://github.com/davislamenha/exercicio-modulo18-ebac#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  }
+}
